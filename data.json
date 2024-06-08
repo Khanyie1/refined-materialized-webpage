@@ -1,0 +1,85 @@
+{
+    "user" : {
+        "fullName": "Khanyisani Majozi",
+        "photo" : "images/my-image/IMG-20191025-WA0055.jpg",
+        "alt" : "Khanyisani's image"
+    },
+
+    "city" : {
+        "name" : "Johannesburg City",
+        "photo" : "images/place-image/Joburg-city.jpg",
+        "description" : "<p>Johannesburg is Southern Africa's Largest City</p>\n<p>It's also one of the 100 largest urban areas in the world and is the economic powerhouse of South Africa. In fact, the Globalization and World Cities Research Network considers it an \"alpha global city\", meaning it's a primary node in the global economic network.</p>",
+        "alt" : "Johannesbury city's image"
+    },
+
+    "foreignLanguage" : {
+        "language" : "Japanese",
+        "phrases" : [{
+            "englishPhrase" : "This means 'Hello.'",
+            "foreignLanguage" : "こんにちは (Konnichiwa)"
+        },
+        {
+            "englishPhrase" : "This means 'Thank you.'",
+            "foreignLanguage" : "ありがとう (Arigatou)"
+        },
+        {
+            "englishPhrase" : "This word means 'Cherry blossom.'",
+            "foreignLanguage" : "さくら (Sakura)"
+        },
+
+        {
+            "englishPhrase" : "This means 'Do your best' or 'Good luck.'",
+            "foreignLanguage" : "がんばって (Ganbatte)"
+        }]
+    },
+
+    "historyPageTitle" : {
+        "title" : "Historical Places"
+    },
+
+    "historicalPlaces" : [
+        {
+            "name-soweto" : "Soweto",
+            "description-sewoto" : "<p>Soweto is known for its vibrant cultural heritage and rich history. It is home to iconic sites like Vilakazi Street, the only street in the world where two Nobel Prize winners.</p>",
+            "photo-sewoto" : "images/place-image/soweto.jpg",
+            "alt-soweto" : "soweto's image"
+        },
+        {
+            "name-sun" : "Sun City",
+            "description-sun" : "<p>Sun City Resort is set in the stark ruggedness of the North West Region of South Africa, and is surrounded by mountains and the untamed majesty of the African bushveld.</p>",
+            "photo-sun" : "images/place-image/suncity.jpg",
+            "alt-sun" : "suncity's image"
+        },
+        {
+            "name-new" : "New Town",
+            "description-new" : "<p>New Town's the centre of progress and arts in the city of Gold, with new developments booming and a number of art galleries, museums, and theatres providing ample entertainment for visitors.</p>",
+            "photo-new" : "images/place-image/newtown.jpg",
+            "alt-new" : "newtown's image"
+        }
+    ],
+
+    "Fav-Title" : {
+        "title" : "Favorite Subjects"
+    },
+    
+    "favouriteSubjects" : [
+        {
+            "name-stack" : "Full Stack Developemt",
+            "description-stack" : "<p>Full stack development because it provides a comprehensive understanding of both front-end and back-end technologies.</P>",
+            "photo-stack" : "images/subject-image/Guide_to_Full_Stack_Development.jpg",
+            "alt-stack" : "full stack development's picture"
+        },
+        {
+            "name-agile" : "Agile Methodology",
+            "description-agile" : "<p>It emphasizes iterative development and continuous feedback, which helps in delivering high-quality products that meet customer needs.</p>",
+            "photo-agile" : "images/subject-image/Agile-image.jpg",
+            "alt-agile" : "agile's picture"
+        },
+        {
+            "name-machine" : "Machine Learning",
+            "description-machine" : "<p>It offers opportunities for innovation across various fields, \nenabling the creation of intelligent systems that improve decision-making and efficiency.</P>",
+            "photo-machine" : "images/subject-image/machine.jpg",
+            "alt-machine" : "Machine learning's picture"
+        }
+    ]
+}

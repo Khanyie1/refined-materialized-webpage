@@ -1,0 +1,287 @@
+body {
+    background-image: linear-gradient(rgba(4,9,10,0.4), rgba(4,9,10,0.4)), url(./images/place-image/shutterstock.png);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.row.box-container {
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 1em;
+    backdrop-filter: brightness(1.5);
+    padding-bottom: 1em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    color: white;
+    border-radius: 17px;
+}
+
+.row.box-container-city {
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 1em;
+    backdrop-filter: brightness(-2);
+    padding-bottom: 1em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    color: white;
+    border-radius: 17px;
+}
+
+.row.box-container-lang {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.row.box-container-table {
+    backdrop-filter: brightness(2.5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+    padding: 0.5em;
+}
+
+.row.box-his-container,
+.row.box-inst-container,
+.row.box-fav {
+    background: #a9a9a97a;
+    border: 0px solid rgba(255, 255, 255, 5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.row.place-box {
+    background: #727090ed;
+    border: 0px solid rgba(255, 255, 255, 5);
+    border-radius: 10px;
+    color: white;
+}
+
+.row.fav-subject-box {
+    background: #727090ed;
+    border: 0px solid rgba(255, 255, 255, 5);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Profile section style */
+.profile-image {
+    width: 200px; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: 3em;
+    border-radius: 15px;
+}
+
+.full-name {
+    height: 30%;
+    margin-top: 1em;
+}
+
+.full-name p {
+    font-size: 2em;
+}
+
+/* City section style */
+
+.image-city-class img {
+    max-width: 50%;
+}
+
+/* foreign language section styles */
+.lang h2 {
+    font-size: 2em;
+}
+
+.table, tr, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    border-collapse: collapse;
+    color: whitesmoke;
+}
+
+.table tr:hover {
+    background-color: #333;
+}
+
+/* historical title style */
+.historical-title h2 {
+    font-size: 2em;
+}
+
+h3.h3-text {
+    font-size: 2em;
+}
+
+img.soweto-image,
+img.suncity-image,
+img.newtown-image {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-container-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col.s6.m2.l2.place-images.flex-container {
+    height: 21em;
+    align-items: center;
+}
+
+.col.s6.m2.l2.place-images.flex-container-sub {
+    height: 21em;
+    align-items: center;
+}
+
+img.fullstack-image,
+img.agile-image,
+img.machine-image {
+    max-width: 100%;
+}
+
+
+.institution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.institution h5 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+@media screen and (max-width: 576px) {
+    .profile-image {
+        width: 75%;
+        padding-top: 1em;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .full-name {
+        height: 0px;
+        margin-top: 2em;
+        justify-content: center;
+    }
+
+    .full-name p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /* city section styles */
+    .image-city-class img {
+        max-width: 100%;
+    }
+
+    .city-name {
+        text-align: center;
+    }
+
+    img.soweto-image,
+    img.suncity-image,
+    img.newtown-image {
+        max-width: 100%;
+    }
+
+    /*favorite styles*/
+
+    img.fullstack-image,
+    img.agile-image,
+    img.machine-image {
+        max-width: 100%;
+    }
+
+    .row.box-container-table {
+        backdrop-filter: blur(-1px);
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+        padding: 0.5em;
+    }
+
+    .table tr:hover {
+        background-color: #333;
+    }
+
+    table.table {
+        background: radial-gradient(black, transparent);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .profile-image {
+        width: 75%;
+        padding-top: 1em;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+
+    .full-name {
+        height: 0px;
+        margin-top: 2em;
+        justify-content: center;
+    }
+
+    .full-name p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /* city section styles */
+    .image-city-class img {
+        max-width: 100%;
+    }
+
+    .city-name {
+        text-align: center;
+    }
+
+    img.soweto-image,
+    img.suncity-image,
+    img.newtown-image {
+        max-width: 100%;
+    }
+
+    /*favorite styles*/
+
+    img.fullstack-image,
+    img.agile-image,
+    img.machine-image {
+        max-width: 100%;
+    }
+}
